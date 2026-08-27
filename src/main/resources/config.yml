@@ -1,0 +1,46 @@
+# TownsAndNations VillagerPlugin - Konfiguration
+
+# Allgemeine Einstellungen
+general:
+  debug: false
+  language: de_DE
+
+# Villager Einstellungen
+villager:
+  # Villager als Bewohner zählen
+  count-as-resident: true
+  
+  # Maximale Anzahl Villager pro Stadt
+  max-villagers-per-town: 100
+  
+  # Berufe die gezählt werden
+  professions-to-count:
+    - FARMER
+    - LIBRARIAN
+    - CLERIC
+    - ARMORER
+    - TOOLSMITH
+    - WEAPONSMITH
+
+# Zahlungen
+payments:
+  # Tägliche Zahlungen aktivieren
+  enabled: true
+  
+  # Zahlungen pro Villager pro Tag
+  daily-payment-per-villager: 10.0
+  
+  # Zahlungszeit (Stunde: 0-23)
+  payment-hour: 12
+  
+  # Zahlungsminute (Minute: 0-59)
+  payment-minute: 0
+
+# Datenbank (optional für Zukunft)
+database:
+  type: sqlite
+  # host: localhost
+  # port: 3306
+  # database: townsvillager
+  # username: root
+  # password: ""

@@ -1,0 +1,19 @@
+name: TownsAndNations-VillagerPlugin
+version: ${project.version}
+description: Villager als Bewohner zählen und tägliche Zahlungen für Towns and Nations
+author: Airbusfreak
+main: de.airbusfreak.villager.VillagerPlugin
+api-version: 1.19
+
+commands:
+  villager:
+    description: Villager Plugin Befehle
+    usage: /villager help
+
+permissions:
+  villager.admin:
+    description: Admin Rechte für das Villager Plugin
+    default: op
+  villager.use:
+    description: Plugin verwenden
+    default: true
